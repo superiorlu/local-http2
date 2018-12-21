@@ -1,0 +1,14 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+distinguished_name = dn
+
+[dn]
+C=ZH
+ST=Beijing
+L=Beijing
+O=MyOrganization
+OU=MyOrganizationUnit
+emailAddress=lovecoding@example.com
+CN=localhost
