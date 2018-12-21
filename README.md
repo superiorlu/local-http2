@@ -39,13 +39,7 @@ docker run --rm --name mynginx -p 80:80 -p 443:443 -v $(pwd)/html:/usr/share/ngi
 ```
 6. Open Browser:
 
-- https trusted:
-
-![localhost](https://s1.ax1x.com/2018/12/21/FsNLjg.png)
-
-- http2:
-
- ![http2](https://s1.ax1x.com/2018/12/21/Fsaliq.png)
+<img src="https://s1.ax1x.com/2018/12/21/FsW0zQ.png" width="90%" heigth="90%">
 
 ## Resouce
 
