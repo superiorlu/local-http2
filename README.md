@@ -12,12 +12,11 @@
 git clone https://github.com/superiorlu/local-http2.git
 cd local-http2
 ```
-2. Run the script to create certificate:
+2. Run the script to create certificates:
 
 ```sh
 sh cert.sh
 ```
-that need root permission.
 
 3. Trust certificates
 - **macOS**:
