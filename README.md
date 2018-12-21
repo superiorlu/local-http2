@@ -1,6 +1,8 @@
 # HTTP/2 for `localhost`
 
  Support http/2 with nginx image on local development.
+ 
+ <img src="https://s1.ax1x.com/2018/12/21/FsW0zQ.png" width="90%" heigth="90%">
 
 ## How-to
 
@@ -37,11 +39,12 @@ docker build -t mynginx .
 ```sh
 docker run --rm --name mynginx -p 80:80 -p 443:443 -v $(pwd)/html:/usr/share/nginx/html -d mynginx
 ```
-6. Open Browser:
-
-<img src="https://s1.ax1x.com/2018/12/21/FsW0zQ.png" width="90%" heigth="90%">
 
 ## Resouce
 
 - [local-cert-generator](https://github.com/dakshshah96/local-cert-generator)
 - [how to create csr using Openssl without prompt](https://www.shellhacks.com/create-csr-openssl-without-prompt-non-interactive/)
+
+## License
+
+MIT License. See [LICENSE](https://github.com/superiorlu/local-http2/blob/master/LICENSE.md) for details.
