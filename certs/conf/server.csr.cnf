@@ -1,14 +1,14 @@
-[req]
-default_bits = 2048
-prompt = no
-default_md = sha256
-distinguished_name = dn
+[ req ]
+default_bits       = 2048
+prompt             = no
+default_md         = sha256
+distinguished_name = req_distinguished_name
 
-[dn]
-C=ZH
-ST=Beijing
-L=Beijing
-O=MyOrganization
-OU=MyOrganizationUnit
-emailAddress=lovecoding@example.com
-CN=localhost
+[ req_distinguished_name ]
+C            = CN
+ST           = Beijing
+L            = Beijing
+O            = MyOrganization
+OU           = MyOrganizationUnit
+emailAddress = lovecoding@example.com
+CN           = localhost

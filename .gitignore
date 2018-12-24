@@ -1,2 +1,3 @@
 certs/rootCA*
 certs/server*
+certs/root/*
